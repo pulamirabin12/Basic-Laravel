@@ -1,5 +1,6 @@
 @extends('layout.layout')
 
 @section('body')
-<x-services.services/>
+<x-thousands.thousands/>
 @endsection
+
