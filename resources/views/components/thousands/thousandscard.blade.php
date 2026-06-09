@@ -1,10 +1,4 @@
-<div class="row">
-						<div class="col-md-12">
-							<div class="statistic-3-title primary-border">
-								<h3 class="h3-lg">Thousands Of People Choose Our Services</h3>
-							</div>
-						</div>
-					</div>
+
 
 
 					<div class="row">
@@ -31,4 +25,5 @@
 
 							</div>
 						</div>
-					</div>	<!-- End row -->
+</div>
+					

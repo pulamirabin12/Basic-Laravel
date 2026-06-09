@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\WebpageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,3 +33,11 @@ Route::get('/layout', function(){
 Route::get('/home', function(){
     return view('pages.home');
 });
+
+
+Route::get('/contact',[WebpageController::class,'contact']);
+
+
+
+Route::get('/blog', [WebpageController::class,'blogs']
+);
