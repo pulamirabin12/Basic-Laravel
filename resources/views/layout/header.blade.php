@@ -49,19 +49,13 @@
 
 
 	        						<!-- DROPDOWN MENU -->
-						        	<li aria-haspopup="true"><a href="#">Home <span class="wsarrow"></span></a>
-						           		<ul class="sub-menu">
-						           			<li aria-haspopup="true"><a href="#">Dummy Link #1</a></li>
-						              		<li aria-haspopup="true"><a href="#">Dummy Link #2</a></li>
-						              		<li aria-haspopup="true"><a href="#">Dummy Link #3</a></li>
-						              		<li aria-haspopup="true"><a href="#">Dummy Link #4</a></li>
-						              		<li aria-haspopup="true"><a href="#">Dummy Link #5</a></li>
-						           		</ul>
+						        	<li aria-haspopup="true"><a href="{{route('home')}}">Home <span class="wsarrow"></span></a>
+						           		
 						          	</li>	<!-- END DROPDOWN MENU -->
 
 
 						          	<!-- PAGES -->
-						          	<li aria-haspopup="true"><a href="#">Pages <span class="wsarrow"></span></a>
+						          	<li aria-haspopup="true"><a href="#">blogs <span class="wsarrow"></span></a>
 	            						<div class="wsmegamenu clearfix">
 	             							<div class="container">
 	               								<div class="row">

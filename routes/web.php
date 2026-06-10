@@ -32,12 +32,13 @@ Route::get('/layout', function(){
 
 Route::get('/home', function(){
     return view('pages.home');
-});
+})->name('home');
 
 
 Route::get('/contact',[WebpageController::class,'contact']);
 
+Route::get('/blogdetail',[WebpageController::class,'blogdetail']);
 
+Route::get('/blog', [WebpageController::class,'blogs']);
 
-Route::get('/blog', [WebpageController::class,'blogs']
-);
+Route::get('/blogdetail/{id}', [WebpageController::class,'blogdetail'])->name('blogdetail');
