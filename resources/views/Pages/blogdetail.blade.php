@@ -14,7 +14,7 @@
 
 									<!-- Image -->
 									<div class="about-9-img mb-40">
-										<img class="img-fluid" src="images/image-10.jpg" alt="about-image" />
+										<img class="img-fluid" src="{{$service['img']}}" alt="about-image" />
 									</div>
 
 									<!-- Title -->

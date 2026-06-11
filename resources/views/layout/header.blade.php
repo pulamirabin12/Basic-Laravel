@@ -5,7 +5,7 @@
 					<!-- MOBILE HEADER -->
 				    <div class="wsmobileheader clearfix">	
 				    	<a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>	    	
-				    	<span class="smllogo"><img src="images/logo-black.png" width="200" height="50" alt="mobile-logo"/></span>
+				    	<span class="smllogo"><img src="{{asset('images/logo-black.png')}}" width="200" height="50" alt="mobile-logo"/></span>
 				    	<a href="tel:123456789" class="callusbtn"><i class="fas fa-phone"></i></a>
 				 	</div>
 
@@ -39,8 +39,8 @@
 
 	    					<!-- LOGO IMAGE -->
 	    					<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 90 pixels) -->
-	    					<div class="desktoplogo"><a href="#hero-1" class="logo-black"><img src="images/logo-black.png" width="180" height="45" alt="header-logo"></a></div>
-	    					<div class="desktoplogo"><a href="#hero-1" class="logo-white"><img src="images/logo-white.png" width="180" height="45" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="#hero-1" class="logo-black"><img src="{{asset('images/logo-black.png')}}" width="180" height="45" alt="header-logo"></a></div>
+	    					<div class="desktoplogo"><a href="#hero-1" class="logo-white"><img src="{{asset('images/logo-white.png')}}" width="180" height="45" alt="header-logo"></a></div>
 
 
 	    					<!-- MAIN MENU -->

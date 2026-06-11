@@ -12,7 +12,7 @@
 										<div class="blog-post-txt">
 
 											<!-- Post Meta -->
-											<p class="post-meta"><a href="#" class="grey-color">{{$data['name']}}</a> - 12 min read</p>
+											<p class="post-meta"><a href="{{route('blogdetail', $data['id'])}}" class="grey-color">{{$data['name']}}</a> - 12 min read</p>
 
 											<!-- Title -->
 											<h4 class="h4-xs">
